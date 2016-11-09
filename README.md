@@ -16,7 +16,7 @@ Predicting House Prices with Regression
 * "Heemyung Kang" <email@gmail.com>
 * "Hojung Yeo" <email@gmail.com>
 * "Down Jung" <email@gmail.com>
-* "useless hala" <poiumn88@gmail.com>
+* "Koo hala" <poiumn88@gmail.com>
 
 # <a name="Synopsis"></a>Synopsis
 This project aims at finding highly cost-effective houses in S.Korea.
@@ -26,13 +26,20 @@ Implementation of our model for predicting house prices to enhance the performan
 You can quickly understand what the purpose of the project from https://prezi.com/o7xutcnjkbsf/predicting-house-prices-with-regression/
 
 # <a name="project_demo"></a>Project Demo
-
+How?
+feature를 모두 입력하면 집의 적정 가격을 파악할 수 있다.
+선형 회귀 분석 이용
+feature
+방의 넓이, 층수, 한강공원과의 거리, 인덕션의 유무 ...
+target
+집의 가격 : (월세+관리비)*100 + 보증금
+feature에 다양한 변수들을 대입해보면서 집 가격에 큰 영향을 미치는 factor를 찾아본다(가장 인접한 스타벅스와의 거리)
 
 # <a name="Prerequisites"></a>Prerequisites
 Describe the installation process
-1. Installing Selenium from https://christopher.su/2015/selenium-chromedriver-ubuntu/
+1.Installing Selenium from https://christopher.su/2015/selenium-chromedriver-ubuntu/
 
-2. Setting up Mongo DB
+2.Setting up Mongo DB
 
 3.
 
