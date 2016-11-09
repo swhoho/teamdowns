@@ -37,22 +37,24 @@ feature에 다양한 변수들을 대입해보면서 집 가격에 큰 영향을
 
 # <a name="Prerequisites"></a>Prerequisites
 Describe the installation process
-1.Installing Selenium from https://christopher.su/2015/selenium-chromedriver-ubuntu/
 
-2.Setting up Mongo DB
-
-3.
+1. Installing Selenium from https://christopher.su/2015/selenium-chromedriver-ubuntu/
+2. Setting up Mongo DB
+3. 
 
 # <a name="Installing"></a>Installing
 Provide code examples and explanations of how to get the project.
-
+'''
 $ npm install username/project-name
+'''
 
 # <a name="API Reference"></a>API Reference
 provide a link to where the API reference docs live.
 
 # <a name="Running the tests"></a>Running the tests
+'''
 Describe and show how to run the tests with code examples.
+'''
 
 # <a name="External_link"></a>External Link
 Prezi : https://prezi.com/o7xutcnjkbsf/predicting-house-prices-with-regression/
