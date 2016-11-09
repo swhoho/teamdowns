@@ -24,6 +24,7 @@ Implementation of our model for predicting house prices to enhance the performan
 
 # <a name="project_demo"></a>Project Demo
 
+
 # <a name="Prerequisites"></a>Prerequisites
 Describe the installation process
 1. Installing Selenium from https://christopher.su/2015/selenium-chromedriver-ubuntu/
@@ -32,6 +33,7 @@ Describe the installation process
 
 # <a name="Installing"></a>Installing
 Provide code examples and explanations of how to get the project.
+$ npm install username/project-name
 
 # <a name="API Reference"></a>API Reference
 provide a link to where the API reference docs live.
