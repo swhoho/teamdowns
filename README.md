@@ -20,7 +20,10 @@ Predicting House Prices with Regression
 
 # <a name="Synopsis"></a>Synopsis
 This project aims at finding highly cost-effective houses in S.Korea.
+
 Implementation of our model for predicting house prices to enhance the performance such as finiding affordable house, lalalalal....
+
+You can quickly understand what the purpose of the project from https://prezi.com/o7xutcnjkbsf/predicting-house-prices-with-regression/
 
 # <a name="project_demo"></a>Project Demo
 
@@ -28,11 +31,14 @@ Implementation of our model for predicting house prices to enhance the performan
 # <a name="Prerequisites"></a>Prerequisites
 Describe the installation process
 1. Installing Selenium from https://christopher.su/2015/selenium-chromedriver-ubuntu/
+
 2. Setting up Mongo DB
+
 3.
 
 # <a name="Installing"></a>Installing
 Provide code examples and explanations of how to get the project.
+
 $ npm install username/project-name
 
 # <a name="API Reference"></a>API Reference
