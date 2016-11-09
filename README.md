@@ -37,11 +37,11 @@ target
 feature에 다양한 변수들을 대입해보면서 집 가격에 큰 영향을 미치는 factor를 찾아본다(가장 인접한 스타벅스와의 거리)
 
 # <a name="Prerequisites"></a>Prerequisites
-Describe the installation process
 
-1. Installing Selenium from https://christopher.su/2015/selenium-chromedriver-ubuntu/
-2. Setting up Mongo DB
-3. 
+* Installing Selenium from https://christopher.su/2015/selenium-chromedriver-ubuntu/
+* Setting up Mongo DB
+* Python 2.7 or Python 3.3+
+* NumPy
 
 # <a name="Installing"></a>Installing
 Provide code examples and explanations of how to get the project.
