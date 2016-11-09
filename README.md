@@ -52,7 +52,7 @@ $ npm install username/project-name
 # <a name="API Reference"></a>API Reference
 provide a link to where the API reference docs live.
 
-*Naver API from here [link!!!]
+* Naver API from here [link!!!]
 
 # <a name="Features"></a>Features
 the features we used I guess???
