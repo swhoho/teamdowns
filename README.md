@@ -9,6 +9,7 @@ Predicting House Prices with Regression
 * [Prerequisites](#Prerequisites)
 * [Installing](#Installing)
 * [API Reference](#API Reference)
+* [Features](#Features)
 * [Running the tests](#Running the tests)
 * [External Link](#External_link)
 
@@ -44,17 +45,21 @@ Describe the installation process
 
 # <a name="Installing"></a>Installing
 Provide code examples and explanations of how to get the project.
-'''
+
 $ npm install username/project-name
-'''
+
 
 # <a name="API Reference"></a>API Reference
 provide a link to where the API reference docs live.
 
+*Naver API from here [link!!!]
+
+# <a name="Features"></a>Features
+the features we used I guess???
+
 # <a name="Running the tests"></a>Running the tests
-'''
 Describe and show how to run the tests with code examples.
-'''
+
 
 # <a name="External_link"></a>External Link
 Prezi : https://prezi.com/o7xutcnjkbsf/predicting-house-prices-with-regression/
