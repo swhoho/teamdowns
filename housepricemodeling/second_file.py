@@ -96,6 +96,11 @@ class Href_to_data(object):
             except: 
                 print 'fail'
                 continue
-print 'start'    
-data = Href_to_data()
-data.href_to_mongodb()
+
+
+                
+if __name__ == '__main__':                
+    print 'start'    
+    data = Href_to_data()
+    data.href_to_mongodb()
+    print 'Suceesfully insert data '
