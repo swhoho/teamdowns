@@ -1,64 +1,53 @@
 # Project Title
-Predicting House Prices with Regression
+Predicting House Prices in Seoul
 
 # Table of Content
 
 * [Contributors](#Contributors)
 * [Synopsis](#Synopsis)
-* [Project Demo](#project_demo)
 * [Prerequisites](#Prerequisites)
-* [Installing](#Installing)
-* [API Reference](#API Reference)
-* [Features](#Features)
-* [Running the tests](#Running the tests)
+* [File Descriptions](#File_Descriptions)
+* [Reference](#Reference)
 * [External Link](#External_link)
 
 # <a name="Contributors"></a>Contributors
-* "Heemyung Kang" <email@gmail.com>
-* "Hojung Yeo" <email@gmail.com>
-* "Down Jung" <email@gmail.com>
+* "Heemyung Kang" <gmlaud14@gmail.com>
+* "Hojung Yeo" <swhoho@gmail.com>
+* "Down Jung" <jdu2038@gmail.com>
 * "Koo hala" <poiumn88@gmail.com>
 
 # <a name="Synopsis"></a>Synopsis
-This project aims at finding highly cost-effective houses in S.Korea.
-
-Implementation of our model for predicting house prices to enhance the performance such as finiding affordable house, lalalalal....
-
+The purpose of this project is to find the cost - efficient house for 20's and early 30's in South Korea who baerly afford to buy house with just one or two rooms. 
+We try to predict the house price by using house options(aircondition, elevator....etc),distance data based on coordinate of the house and statistics data of each Dong(administrative district of Seoul equivalent to town).
+We collected the house price and house information data in the site Dabang(https://www.dabangapp.com/).
 You can quickly understand what the purpose of the project from https://prezi.com/o7xutcnjkbsf/predicting-house-prices-with-regression/
-
-# <a name="project_demo"></a>Project Demo
-How?
-feature를 모두 입력하면 집의 적정 가격을 파악할 수 있다.
-선형 회귀 분석 이용
-feature
-방의 넓이, 층수, 한강공원과의 거리, 인덕션의 유무 ...
-target
-집의 가격 : (월세+관리비)*100 + 보증금
-feature에 다양한 변수들을 대입해보면서 집 가격에 큰 영향을 미치는 factor를 찾아본다(가장 인접한 스타벅스와의 거리)
 
 # <a name="Prerequisites"></a>Prerequisites
 
 * Installing Selenium from https://christopher.su/2015/selenium-chromedriver-ubuntu/
 * Setting up Mongo DB
 * Python 2.7 or Python 3.3+
-* NumPy
-
-# <a name="Installing"></a>Installing
-Provide code examples and explanations of how to get the project.
-
-$ npm install username/project-name
+* Ipython Notebook 
+* You don't need to install MongoDB and Selenium if you  data crawling part by using finalcsv.csv
 
 
-# <a name="API Reference"></a>API Reference
-provide a link to where the API reference docs live.
+# <a name="File_Descriptions"></a>File_Descriptions
+* Crawling Datas.ipynb: ipython notebook describe the process to crawling datas
+* visualization to modeling.ipynb: ipython notebook describe the preprocessing to modeling steps
+* firstfile.py & secondfile.py: python code to execute data crawling process 
+* image1.png,image2.png,image3.png,image4.png,besthouse.png, worsthouse.png: image file of dabang app 
+* finalcsv.csv: csv file of the data structure to use for modeling
+* bank.csv: csv file that show us the banks data of each dong in Seoul
+* population.csv: csv file that show us the eldery population data of each dong in Seoul
+* You can follow our project's process by executing Crawling Datas.ipynb -> visualization to modeling.ipynb orders
 
-* Naver API from here [link!!!]
 
-# <a name="Features"></a>Features
-the features we used I guess???
-
-# <a name="Running the tests"></a>Running the tests
-Describe and show how to run the tests with code examples.
+# <a name="Reference"></a>Reference
+* Dabang[https://www.dabangapp.com/]
+* Naver API from here [https://developers.naver.com/products/map]
+* Mc Donalds Korea[www.mcdonalds.co.kr/]
+* Starbucks korea[http://www.istarbucks.co.kr/index.do]
+* Seoul Statistics[http://stat.seoul.go.kr/]
 
 
 # <a name="External_link"></a>External Link
