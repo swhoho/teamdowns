@@ -28,7 +28,7 @@ You can quickly understand what the purpose of the project from https://prezi.co
 * Setting up Mongo DB
 * Python 2.7 or Python 3.3+
 * Ipython Notebook 
-* You don't need to install MongoDB and Selenium if you  data crawling part by using finalcsv.csv
+* You don't need to install MongoDB and Selenium if you skip the data crawling part by using finalcsv.csv
 
 
 # <a name="File_Descriptions"></a>File_Descriptions
